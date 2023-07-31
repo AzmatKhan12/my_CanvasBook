@@ -55,7 +55,7 @@ const Nav_bar = () => {
       </div>
       <style jsx>{`
         nav {
-           
+           overflow :hidden:
           width: 1440px;
           height: 80px;
           background: #1daece;
@@ -139,7 +139,7 @@ const Nav_bar = () => {
             width: Hug (170px);
             height: Hug (20px);
             gap: 30px;
-            margin-left :250px;
+            margin-left :220px;
             padding-bottom :110px;
             
         }

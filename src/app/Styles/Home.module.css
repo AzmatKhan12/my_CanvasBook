@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*/
+.burger{ 
+    display: none;
+}
+.burger div{
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px;
+}
+
+.main{
+    overflow-y: hidden;
+    background:  #cacaca url('/bg.png') no-repeat center center fixed;
+    height: 88vh;
+   
+    background-size: cover;
+    background-position: right center;
+    
+}
+
+
+/* .main::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    opacity: 0.4;
+} */
+
+.character_box{
+    overflow-y: hidden;
+    width: 588px;
+    margin: 8vh;
+    padding: 4rem;
+    height: fit-content;
+    background: #fff;
+}
+
+.home_div{
+    padding: 10px 15px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 1px solid #1DAECE;
+    border-radius: 8px;
+    color: #1DAECE;
+}
+
+.hr_{
+
+    display: flex;
+    width:  306px;
+    height: 33px;
+    gap: 10px;
+    background-color: #fff;
+    margin: 6px;
+    color: #1DAECE;
+    font-weight: 1000;
+    text-align: center;
+   
+}
