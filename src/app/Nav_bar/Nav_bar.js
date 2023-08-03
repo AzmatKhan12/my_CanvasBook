@@ -55,8 +55,8 @@ const Nav_bar = () => {
       </div>
       <style jsx>{`
         nav {
-           overflow :hidden:
-          width: 1440px;
+            overflow :hidden;
+          width: 100vw;
           height: 80px;
           background: #1daece;
           box-shadow: 0px 4px 4px 0px #1e1e1e40;

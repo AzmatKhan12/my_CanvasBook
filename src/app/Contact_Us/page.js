@@ -1,8 +1,12 @@
 import React from 'react'
+import Nav_bar from '../Nav_bar/Nav_bar'
 
 const Contact_Us = () => {
   return (
-    <div>Contact_Us</div>
+    <>
+      <Nav_bar/>
+      <div>Contact_Us</div>
+    </>
   )
 }
 
