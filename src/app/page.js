@@ -4,6 +4,7 @@ import Nav_bar from "./Nav_bar/Nav_bar";
 import styles from "./Styles/Home.module.css";
 import Button from "./Buttons/Button";
 import Button_char from "./Buttons/Button_char";
+import { Margarine } from "next/font/google";
 
 const Home = (props) => {
   const [name, setName] = useState("");
@@ -24,7 +25,7 @@ const Home = (props) => {
       <section >
         <div className={styles.character_box}>
           <form onSubmit={handleSubmit}>
-            <div>Create Your Character</div>
+            <div className={styles.__label}>Create Your Character</div>
             <div>
               <span>
                 <input
@@ -37,7 +38,7 @@ const Home = (props) => {
               </span>
             </div>
             <div className={`flex justify-between border-solid  items-center `}>
-              <div className="mr-5">
+              <div className="mr-5 ">
                 <span>
                   <input
                     type="number"
@@ -49,22 +50,22 @@ const Home = (props) => {
                 </span>
               </div>
               <div
-                className={`flex justify-center items-center ${styles.home_div}`}
+                className={`flex justify-center items-center  ${styles.home_div}`}
               >
-                <input className="mx-5" type="radio" name="gender" id="" /> Male
+                <input className="mx-0" type="radio" name="gender" id="" /> Male
                 <input type="radio" name="gender" id="" /> Female
               </div>
             </div>
-            <div>
+            <div className="mt -1.5">
               <Button>Upload a picture</Button>
             </div>
             <div >
               <Button_char>Create Your Character</Button_char>
             </div>
-              <div  className="hr">
-                <div> <hr/></div>
-                <div style={{textAlign:"center"}}>or</div>
-                <div> <hr/></div>
+              <div className={`hr `}>
+                 <hr className="hr"/>
+                 or
+                 <hr className="hr"/>
               </div>
             <div>
               <Button_char>Generate a random Character</Button_char>
@@ -74,13 +75,13 @@ const Home = (props) => {
 
         <style jsx>{`
           input {
-            padding: 10px 15px;
+            padding: .625rem 1rem;
             width: 100%;
             font-family: "Poppins", sans-serif;
-            font-size: 18px;
+            font-size: 1.125rem;
             border: 1px solid #1daece;
-            border-radius: 8px;
-            margin: 4px;
+            border-radius: .5rem;
+            margin: .25rem;
             color: #1daece;
             letter-spacing: 1px;
             text-align: center;
@@ -95,11 +96,12 @@ const Home = (props) => {
           }
           .hr{
               display: flex;
-              width:  306px;
-              height: 33px;
-              gap: 10px;
+              width:  20rem;
+              height: 2.125rem;
+              gap: .625rem;
               background-color: #fff;
-              margin: 6px;
+              margin: .5rem;
+              padding-left : 5rem;
               color: #1DAECE;
               font-weight: 1000;
               text-align: center;
