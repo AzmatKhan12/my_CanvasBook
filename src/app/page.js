@@ -85,6 +85,7 @@ const Home = (props) => {
             color: #1daece;
             letter-spacing: 1px;
             text-align: center;
+            cursor: pointer;
           }
 
           input:focus {

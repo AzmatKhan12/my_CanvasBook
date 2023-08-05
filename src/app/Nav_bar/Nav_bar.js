@@ -69,14 +69,12 @@ const Nav_bar = () => {
       </div>
       <style jsx>{`
          nav {
-          display: flex;
           position: static;
           float: none;
           flex-shrink: 0;
-          
           width: 100vw;
           height: 5rem;
-          background: #1daece;
+          background: #1daece ;
           box-shadow: 0px 4px 4px 0px #1e1e1e40;
         }
         ul {
@@ -85,6 +83,7 @@ const Nav_bar = () => {
           height: Hug (1.25rem);
           gap: 1.875rem;
           padding-top: 1.875rem;
+          cursor: pointer;
         }
         .about__US {
           width: hug(4.5rem);
@@ -138,8 +137,9 @@ const Nav_bar = () => {
           font-weight: 500;
           line-height: 1.1875rem;
           letter-spacing: 0em;
-          text-align: left;
+          text-align: centre;
           color: #dfdfdf;
+          align-item : center;
         }
         .__page {
           display: flex;
@@ -156,6 +156,7 @@ const Nav_bar = () => {
           gap: 1.875rem;
           margin-left :5rem;
           padding-bottom: 6.875rem;
+          cursor: pointer;
         }
         
         .__icon_alg{
@@ -166,7 +167,6 @@ const Nav_bar = () => {
           position: relative;
           margin-left: 4rem;
           top: -1.875rem;
-          // position: static;
           float: none;
         }
         
